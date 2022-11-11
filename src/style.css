@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", "Inter", sans-serif;
+  margin: 0;
+}
+
+h1{
+  font-size: 1.3em;
+  font-weight:700;
+  color: #FFFF;
+  padding-left: 0.5rem;
+  letter-spacing: -0.1em;
+  
+}
+
+.subtitle-nav {
+  font-size: 0.7em;
+  color: #FFFF;
+  font-weight:500;
+  font-family: "Inter";
+  padding-right: 2rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 4em;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  align-items: center;
+  flex-direction: row;
+}
+
+.title-logo{
+  display: flex;
+  padding-left: 2rem;
+  align-items: center;
+}
+
+.logo-image{
+  height: 3em;
+}
