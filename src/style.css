@@ -16,7 +16,7 @@ h1{
   
 }
 
-.subtitle-nav {
+.header-subtitle {
   font-size: 0.7em;
   color: #FFFF;
   font-weight:500;
@@ -24,7 +24,7 @@ h1{
   padding-right: 2rem;
 }
 
-.navbar {
+.header {
   display: flex;
   justify-content: space-between;
   height: 4em;
@@ -39,6 +39,53 @@ h1{
   align-items: center;
 }
 
-.logo-image{
+.header-image{
   height: 3em;
+}
+
+/*form*/
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.form-button {
+  width: 80%;
+  height: 3em;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  border-radius: 5px;
+  border:none;
+  font-size: 1em;
+  color: #FFFF;
+  font-weight: 700;
+  font-family: "Karla";
+  letter-spacing: -0.1em;
+  text-align: center;
+}
+
+.inputs-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 2rem 0 1rem 0;
+  justify-content: space-between;
+  align-content: center;
+  width: 80%;
+}
+
+.form-input {
+  width: 49%;
+  height: 3em;
+  font-family: "Karla";
+  border: 1px solid #D5D4D8;
+  border-radius: 5px;
+  padding-left: 1em;
+}
+
+.meme-image {
+  max-width: 80%;
+  padding-top: 5%;
 }
