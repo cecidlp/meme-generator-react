@@ -70,7 +70,7 @@ h1{
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 2rem 0 1rem 0;
+  margin: 2em 0 2em 0;
   justify-content: space-between;
   align-content: center;
   width: 80%;
@@ -92,8 +92,7 @@ h1{
     justify-content: center;
     align-content: center;
     flex-direction: column;
-    margin-top: 3%;
-    margin-bottom: 3%;
+    margin: 2em 0 2em 0;
 }
 
 .meme--image {
@@ -132,4 +131,30 @@ h1{
       0 -2px 0 #000,
       -2px 0 0 #000,
       2px 2px 5px #000;
+}
+
+@media only screen and (max-width: 600px) {
+  .title-logo {
+    padding-left: 0.5rem;
+  }
+  .header-subtitle {
+    padding-right: 0.7rem;
+    font-size: 60%
+  }
+  .header-image {
+    height: 2.5em;
+}
+h1 {
+  font-size: 100%;
+  padding-left: 0.2em;
+}
+
+.inputs-div {
+  margin: 1em 0 1em 0;
+}
+
+.meme {
+  margin: 1em 0 1em 0;
+}
+
 }
